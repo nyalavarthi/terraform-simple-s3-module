@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-1234"
+  bucket = "my-tf-test-bucket1-sandbox"
   acl    = "private"
 
   tags = {
