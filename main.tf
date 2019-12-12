@@ -1,0 +1,7 @@
+provider "aws" {
+  region = "eu-central-1"
+}
+module "my_s3" {
+  source      = "../modules/s3"
+  bucket = "my-tf-test-bucket-sndbox1"
+}
